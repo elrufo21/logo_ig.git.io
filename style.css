@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+}
+section{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenedor{
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenedor-camara{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    border: solid 10px white;
+}
+#camara{
+    
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    border: solid 20px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+#flash{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: solid 5px #FFF;
+    position: absolute;
+    top: 11px;
+    left: 116px;
+}
